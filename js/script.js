@@ -69,7 +69,7 @@ function createCats(cats) {
     }
     html += `<div class="cats">
                     <h5>${cats[i].name}</h5>
-                    <p>Age: ${cats[i].age}</p>
+                    <p>Age: ${catAge}</p>
                 </div>`;
   }
   return html;
